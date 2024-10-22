@@ -125,6 +125,13 @@ doc_events = {
 	"Patient": {
 		"after_insert": "healthcare.regional.india.abdm.utils.set_consent_attachment_details"
 	},
+<<<<<<< HEAD
+=======
+	"Payment Entry": {
+		"on_submit": "healthcare.healthcare.custom_doctype.payment_entry.set_paid_amount_in_treatment_counselling",
+		"on_cancel": "healthcare.healthcare.custom_doctype.payment_entry.set_paid_amount_in_treatment_counselling",
+	},
+>>>>>>> 69f4b9d (fix(Treatment Counselling): Add payment entry on_cancel and paid amount calculation)
 }
 
 scheduler_events = {
