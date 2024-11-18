@@ -40,7 +40,7 @@ services:
       # Enable the Dashboard and API
       - --api
     ports:
-      - 443:443
+      - 743:443
     volumes:
       - cert-data:/certificates
 
