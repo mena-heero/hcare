@@ -1,0 +1,24 @@
+[
+    {
+      "url": "https://github.com/frappe/erpnext",
+      "branch": "version-15"
+    },
+    {
+      "url": "https://github.com/mena-heero/hcare",
+      "branch": "version-15-hotfix"
+    },
+  
+  
+  
+    
+  
+    {
+      "url": "https://github.com/frappe/hrms",
+      "branch": "version-15"
+    }
+  
+  
+    
+  
+  ]
+  
